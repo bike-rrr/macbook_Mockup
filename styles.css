@@ -35,11 +35,19 @@ main {
     height:100%;
     position:relative;
 }
-.desktop {
-    background: pink;
+.desktop-background {
+    /* background: pink; */
     position:absolute;
-    top:21.5%;
-    height:10%;
-    width:64.096%;
+    top:21.9%;
+    height:54%;
+    width: 64.5%;
   
+}
+
+.header {
+    background: grey;
+    width:64.5%;
+    height:3%;
+    position: absolute;
+    top:21.9%;
 }
