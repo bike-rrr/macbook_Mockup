@@ -3,3 +3,4 @@ document.querySelectorAll(".header img").forEach((img) => {
         alert('hi')
     })
 })
+console.log("got git alias working")
