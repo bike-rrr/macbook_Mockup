@@ -15,39 +15,38 @@ main {
  align-items: center;
  width:100%;
  height:100%;
- background: red;
+ /* background: red; */
 }
-
 .macbook {
     width:100vmin;
     height: auto;
     background: green;
-    position:absolute;
+    position:relative; /* could be Absolute or Relative, just need "a" position for the elements inside*/
 
     display:flex;
     justify-content: center;
-    align-items: center; 
-
 }
-
 .macbook-img {
+    position:relative;
     width:100%;
     height:100%;
-    position:relative;
 }
 .desktop-background {
-    /* background: pink; */
     position:absolute;
     top:21.9%;
     height:54%;
-    width: 64.5%;
-  
+    width: 64.5%; 
 }
-
 .header {
+    position: absolute;
     background: grey;
     width:64.5%;
     height:3%;
-    position: absolute;
     top:21.9%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > img {
 }
